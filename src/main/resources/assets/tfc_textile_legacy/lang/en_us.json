@@ -1,0 +1,13 @@
+{
+  "itemGroup.tfc_textile_legacy": "Example Mod Tab",
+  "block.tfc_textile_legacy.example_block": "Example Block",
+  "item.tfc_textile_legacy.example_item": "Example Item",
+
+  "tfc_textile_legacy.configuration.title": "TFC Textile (Legacy) Configs",
+  "tfc_textile_legacy.configuration.section.tfc_textile_legacy.common.toml": "TFC Textile (Legacy) Configs",
+  "tfc_textile_legacy.configuration.section.tfc_textile_legacy.common.toml.title": "TFC Textile (Legacy) Configs",
+  "tfc_textile_legacy.configuration.items": "Item List",
+  "tfc_textile_legacy.configuration.logDirtBlock": "Log Dirt Block",
+  "tfc_textile_legacy.configuration.magicNumberIntroduction": "Magic Number Text",
+  "tfc_textile_legacy.configuration.magicNumber": "Magic Number"
+}
