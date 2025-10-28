@@ -1,0 +1,14 @@
+{
+  "type": "tfc:knapping",
+  "knapping_type": "tfc_textile_legacy:primitive_insulation",
+  "pattern": [
+    "XXXXX",
+    "XXXXX",
+    "XX XX",
+    "XX XX",
+    "XX XX"
+  ],
+  "result": {
+    "id": "tfc_textile_legacy:raw_leggings"
+  }
+}

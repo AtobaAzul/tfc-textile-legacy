@@ -1,0 +1,12 @@
+// 1.21.1	2025-10-28T17:49:25.3387094	Tags for minecraft:item mod id tfc_textile_legacy
+049663ac90ae79e47c9bff733eb846bb00d52f74 data/curios/tags/item/clothes_hat.json
+7f2ca5b7d1fcb28961c79739b2c378bc4d599155 data/curios/tags/item/clothes_pants.json
+1643208575b3d057ef72a3e4d404035dfd44013b data/curios/tags/item/clothes_socks.json
+9ed60d7e8b96e6cf0ee0eacb25f13e82d6dc1e12 data/curios/tags/item/clothes_torso.json
+049663ac90ae79e47c9bff733eb846bb00d52f74 data/tfcambiental/tags/item/clothes_hat.json
+7f2ca5b7d1fcb28961c79739b2c378bc4d599155 data/tfcambiental/tags/item/clothes_pants.json
+1643208575b3d057ef72a3e4d404035dfd44013b data/tfcambiental/tags/item/clothes_socks.json
+9ed60d7e8b96e6cf0ee0eacb25f13e82d6dc1e12 data/tfcambiental/tags/item/clothes_torso.json
+1066c97509e2fa037b344d8cb6b88d24bbd2fdda data/tfc_textile_legacy/tags/item/furs.json
+9c3b86ca6311bebb226c4cdd2809637c0c6dad69 data/tfc_textile_legacy/tags/item/primitive_insulation_knapping.json
+98ae076c004f487ad3482b9d16156c21026495ed data/tfc_textile_legacy/tags/item/replaceable_hide.json

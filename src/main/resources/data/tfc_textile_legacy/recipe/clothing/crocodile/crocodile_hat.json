@@ -1,0 +1,23 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:strings"
+    },
+    "B": {
+      "item": "tfc_textile_legacy:crocodile_leather"
+    },
+    "C": {
+      "item": "tfcambiental:burlap_cowl"
+    }
+
+  },
+  "result": {
+    "id": "tfc_textile_legacy:crocodile_helmet"
+  }
+}

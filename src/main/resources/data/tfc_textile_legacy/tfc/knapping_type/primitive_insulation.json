@@ -1,0 +1,14 @@
+{
+  "click_sound": "tfc:block.thatch.place",
+  "consume_after_complete": false,
+  "has_off_texture": false,
+  "icon": {
+    "count": 1,
+    "id": "tfc_textile_legacy:primitive_insulation"
+  },
+  "input": {
+    "count": 1,
+    "tag": "tfc_textile_legacy:primitive_insulation_knapping"
+  },
+  "spawns_particles": false
+}

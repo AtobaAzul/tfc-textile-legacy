@@ -1,0 +1,17 @@
+package net.atobaazul.tfc_textile.common.item;
+
+import net.minecraft.core.registries.Registries;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.Item;
+
+import static net.atobaazul.tfc_textile.TFCTextileUtil.*;
+
+public class TextileItemTags {
+    public static final TagKey<Item> PRIMITIVE_INSULATION_KNAPPING = itemTag("primitive_insulation_knapping");
+    public static final TagKey<Item> FURS = itemTag("furs");
+    public static final TagKey<Item> REPLACEABLE_HIDE = itemTag("replaceable_hide");
+
+    private static TagKey<Item> itemTag(String name) {
+        return TagKey.create(Registries.ITEM, TextileResource(name));
+    }
+}

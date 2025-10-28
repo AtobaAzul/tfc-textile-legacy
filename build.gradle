@@ -19,6 +19,19 @@ group = mod_group_id
 
 repositories {
     // Add here additional repositories if required by some of the dependencies below.
+    maven {
+        url 'https://www.cursemaven.com'
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+    maven {
+        url = 'https://repo.spongepowered.org/maven'
+    }
+    maven {
+        url "https://repo.spongepowered.org/repository/maven-public/"
+        content { includeGroup "org.spongepowered" }
+    }
 }
 
 base {
@@ -133,6 +146,13 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+
+
+    implementation "curse.maven:curios-309927:6528893"
+    implementation "curse.maven:patchouli-306770:6842247"
+    implementation "curse.maven:terrafirmacraft-302973:7010707"
+    implementation "curse.maven:tfc-ambiental-398442:7155426"
+    implementation "curse.maven:jei-238222:7129287"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

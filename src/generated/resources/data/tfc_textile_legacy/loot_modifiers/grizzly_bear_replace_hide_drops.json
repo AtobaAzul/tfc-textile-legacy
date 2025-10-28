@@ -1,0 +1,10 @@
+{
+  "type": "tfc_textile_legacy:replace_hide",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "tfc:entities/grizzly_bear"
+    }
+  ],
+  "item": "tfc_textile_legacy:grizzly_bear_fur"
+}

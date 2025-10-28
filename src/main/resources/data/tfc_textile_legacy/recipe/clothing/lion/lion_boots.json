@@ -1,0 +1,24 @@
+
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACA",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:strings"
+    },
+    "B": {
+      "item": "tfc_textile_legacy:lion_fur"
+    },
+    "C": {
+      "item": "minecraft:leather_boots"
+    }
+
+  },
+  "result": {
+    "id": "tfc_textile_legacy:lion_boots"
+  }
+}

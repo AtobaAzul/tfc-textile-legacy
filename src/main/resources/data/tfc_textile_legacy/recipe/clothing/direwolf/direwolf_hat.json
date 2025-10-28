@@ -1,0 +1,23 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:strings"
+    },
+    "B": {
+      "item": "tfc_textile_legacy:direwolf_fur"
+    },
+    "C": {
+      "item": "minecraft:leather_helmet"
+    }
+
+  },
+  "result": {
+    "id": "tfc_textile_legacy:direwolf_helmet"
+  }
+}
