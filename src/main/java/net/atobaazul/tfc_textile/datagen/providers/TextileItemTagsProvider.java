@@ -21,9 +21,9 @@ import java.util.ArrayList;
 import java.util.concurrent.CompletableFuture;
 
 import static net.atobaazul.tfc_textile.TFCTextileLegacy.MOD_ID;
-import static net.atobaazul.tfc_textile.common.item.TextileItemTags.PRIMITIVE_INSULATION_KNAPPING;
-import static net.atobaazul.tfc_textile.common.item.TextileItemTags.REPLACEABLE_HIDE;
+import static net.atobaazul.tfc_textile.common.item.TextileItemTags.*;
 import static net.atobaazul.tfc_textile.registries.TextileItems.*;
+import static net.atobaazul.tfc_textile.registries.TextileItems.FURS;
 
 public class TextileItemTagsProvider extends ItemTagsProvider {
     private static final TagKey<Item> CLOTHES_HAT = ambientalTag("clothes_hat");
@@ -55,13 +55,15 @@ public class TextileItemTagsProvider extends ItemTagsProvider {
         IntrinsicTagAppender<Item> clothesPants = tag(CLOTHES_PANTS).replace(false);
         IntrinsicTagAppender<Item> clothesSocks = tag(CLOTHES_SOCKS).replace(false);
         IntrinsicTagAppender<Item> clothesTorso = tag(CLOTHES_TORSO).replace(false);
+        IntrinsicTagAppender<Item> furClothes = tag(FUR_CLOTHES).replace(false);
 
 
         ArrayList<IntrinsicTagAppender<Item>> clothingTags = new ArrayList<>();
-        clothingTags.add( clothesHat);
+        clothingTags.add(clothesHat);
         clothingTags.add(clothesTorso);
         clothingTags.add(clothesPants);
         clothingTags.add(clothesSocks);
+        clothingTags.add(furClothes);
 
         IntrinsicTagAppender<Item> curiosHat = tag(CURIOS_HAT).replace(false);
         IntrinsicTagAppender<Item> curiosPants = tag(CURIOS_PANTS).replace(false);
@@ -114,6 +116,10 @@ public class TextileItemTagsProvider extends ItemTagsProvider {
     }
 
     private void addClothingTags(DeferredItem<Item> item, ArrayList<IntrinsicTagAppender<Item>> tags) {
+        if (!item.getId().toString().contains("raw_") && tags.size() > 4) {
+            tags.get(4).add(item.get());
+        }
+
         if (item.getId().toString().contains("helmet")) {
             tags.get(0).add(item.get());
         } else if (item.getId().toString().contains("chestplate")) {
